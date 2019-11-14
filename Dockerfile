@@ -3,7 +3,7 @@ USER root
 
 ENV \
     BUILD_DEPS="apt-transport-https gnupg2 software-properties-common"  \
-    RUNTIME_DEPS="tar docker openssh-client ca-certificates docker-compose"
+    RUNTIME_DEPS="tar docker unzip curl git openssh-client ca-certificates docker-compose gettext-base"
 
 RUN \
     apt-get update && \
