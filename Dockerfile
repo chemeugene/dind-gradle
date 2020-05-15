@@ -1,4 +1,4 @@
-FROM gradle:6.0.0-jdk13
+FROM gradle:6.0.0-jdk14
 USER root
 
 ENV \
